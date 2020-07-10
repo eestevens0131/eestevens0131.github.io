@@ -3,8 +3,11 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
+    body {
+      background-color: #F4F1DE;
+    }
     .btn {
-      background-color: #f4511e;
+      background-color: #81B29A;
       border: none;
       color: white;
       padding: 16px 32px;
@@ -22,7 +25,13 @@
 <body>
   <h1>Summer 2020 </h1>
   <h2>An absolutely wild summer</h2>
-  <p>Welcome to my page!</p>
+  <p id="myP">Welcome to my page!</p>
+
+  <script>
+    function myFunction() {
+    document.getElementById("myP").style.fontFamily = "Impact,Charcoal,sans-serif";
+    }
+</script>
 
 </body>
 </html>
